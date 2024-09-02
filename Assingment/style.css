@@ -1,0 +1,76 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+body {
+    height: 800px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 6px;
+    font-weight:200;
+}
+input {
+    border: none;
+}
+.genius_text {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.nav_item {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    font-size: x-small;
+}
+.subnav {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+    background-color: black;
+}
+.sub_items {
+    text-decoration: none;
+    color: white;
+}
+.news-text {
+    display: flex;
+    flex-direction: row;
+}
+.news-items {
+    margin: 10px;
+    padding-right: 30px;
+    width: 90%;
+}
+#news-image {
+    height: 300px;
+}
+.news2 {
+    display: flex;
+    justify-content: space-around;
+}
+.text2 {
+    padding-right: 50px;
+    width: 100px;
+}
+#border {
+    border-right: 1px solid black;
+}
+.news-head {
+    font-size: x-small;
+}
+
+.charts-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.charts-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
